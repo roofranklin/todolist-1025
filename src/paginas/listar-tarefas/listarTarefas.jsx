@@ -5,11 +5,6 @@ function ListarTarefas() {
 
   const [tarefas, setTarefas] = useState([])
 
-  const [tarefa, setTarefa] = useState({
-    descricao: '',
-    finalizado: false
-  })
-
   useEffect(() => {
     axios.get('http://localhost:3000/tarefas')
     .then(response => {
