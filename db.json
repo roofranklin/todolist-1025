@@ -1,16 +1,20 @@
 {
   "tarefas": [
     {
-      "id": 1,
+      "id": "1",
       "descricao": "Arrumar o quarto"
     },
     {
-      "id": 2,
+      "id": "2",
       "descricao": "Preparar o café"
     },
     {
-      "id": 3,
+      "id": "3",
       "descricao": "Lavar as roupas"
+    },
+    {
+      "id": 0,
+      "descricao": "Passear com os cães"
     }
   ]
 }
