@@ -5,7 +5,8 @@ import axios from 'axios'
 function AdicionarTarefa() {
 
   const [tarefa, setTarefa] = useState({
-    descricao: ''
+    descricao: '',
+    finalizado: false
   })
 
   const navigate = useNavigate()

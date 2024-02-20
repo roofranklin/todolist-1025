@@ -1,16 +1,29 @@
 {
   "tarefas": [
     {
-      "id": "2",
-      "descricao": "Preparar o café"
+      "finalizado": true,
+      "descricao": "Estudar React",
+      "id": "2"
     },
     {
-      "id": "3",
-      "descricao": "Fazer o trabalho"
+      "finalizado": true,
+      "descricao": "Estudar HTML",
+      "id": "3"
     },
     {
-      "id": "644c",
-      "descricao": "Finalizar o trabalho do curso"
+      "finalizado": true,
+      "descricao": "Estudar JavaScript",
+      "id": "644c"
+    },
+    {
+      "id": "fc8f",
+      "descricao": "Estudar CSS",
+      "finalizado": false
+    },
+    {
+      "id": "bc2e",
+      "descricao": "estudar Java",
+      "finalizado": true
     }
   ]
 }
