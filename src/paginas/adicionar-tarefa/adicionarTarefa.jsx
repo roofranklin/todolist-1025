@@ -5,7 +5,6 @@ import axios from 'axios'
 function AdicionarTarefa() {
 
   const [tarefa, setTarefa] = useState({
-    id: 0,
     descricao: ''
   })
 
